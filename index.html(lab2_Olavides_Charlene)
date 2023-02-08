@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta name = "description" content = "Charlene Olavides lab 2, my baking page">
+    <meta name = "keywords" content = "baking, baked goods, desserts, bread, blog">
+    <title>Charlene's Baking Page</title>
+    
+</head>
+    <body style="background-color:rgba(217, 229, 169, 0.965)"> <!--https://www.tutorialspoint.com/How-to-set-background-color-in-HTML-->
+        <div id="welcome" style="font-family:Cambria;color:cornflowerblue;text-align:center">
+            <marquee><h1>Charlene's Baking Page</h1></marquee>
+            <b>Welcome to my baking page! Here are pictures of some of my baking projects with recipes linked :)</b>
+            <br><p style=" font-size: large;">🍪🍞</p>
+            <blockquote cite="https://www.wgbh.org/julia-child-quotes">
+                “People who love to eat are always the best people.” - Julia Child
+                </blockquote>
+            </div>
+
+        <div id="projects" style="font-family:Georgia;color:cornflowerblue;text-align: center;">
+            <table cellpadding=5>
+                <tr>
+                    <td><img src="cookies.jpeg"></td>
+                    <td><img src="macarons.jpeg"></td>
+                    <td><img src="pecan.jpeg"></td>
+                </tr>
+                <tr style="font-weight:bold;font-size: x-large;">
+                    <td><a href="https://handletheheat.com/bakery-style-chocolate-chip-cookies/#wprm-recipe-container-30199">chocolate chip cookies</a><br/></td>
+                    <td><a href="https://sugargeekshow.com/recipe/chocolate-macaron-recipe/">chocolate macarons</a><br/></td>
+                    <td><a href="https://www.allrecipes.com/recipe/18433/irresistible-pecan-pie/">pecan pie</a><br/></td>
+                </tr>
+                <tr style="font-size:medium">
+                    <td>A classic.</td> 
+                    <td>Filled with chocolate ganache.</td>
+                    <td>A Thanksgiving favorite with homemade crust.</td>
+
+                </tr>
+                <tr>
+                    <td><img src="ube.jpeg"></td>
+                    <td><img src="rolls.jpeg"></td>
+                    <td><img src="ensymada.jpeg"></td>
+                </tr>
+                <tr style="font-weight:bold;font-size: x-large;">
+                    <td><a href="https://www.allrecipes.com/recipe/51518/ube-macapuno-cake/">ube cake</a><br/></td>
+                    <td><a href="https://www.jocooks.com/recipes/texas-roadhouse-rolls/">copycat texas roadhouse rolls</a><br/></td>
+                    <td><a href="https://youtu.be/sL2gbvvGeuo">ensymada</a><br/></td>
+                </tr>
+                <tr style="font-size:medium">
+                    <td>A Filipino favorite with cream cheese frosting.</td>
+                    <td>Buttery and makes for a great side.</td>
+                    <td>Fluffy, sweet bread topped with cream cheese frosting and cheese.</td>
+                </tr>
+                <tr>
+                    <td><img src="strawb.jpeg"></td>
+                    <td><img src="maamoul.jpeg"></td>
+                    <td><img src="sansrival.jpeg"></td>
+                </tr>
+                <tr style="font-weight:bold;font-size: x-large;">
+                    <td><a href="https://sugargeekshow.com/recipe/strawberry-shortcake-layer-cake/">strawberry shortcake</a><br/></td>
+                    <td><a href="https://www.thedeliciouscrescent.com/maamoul-cookies//">maamoul-inspired cookies</a><br/></td>
+                    <td><a href="https://www.bakinglikeachef.com/layer-cake-sans-rival/">sans rival</a><br/></td>
+                </tr>
+                <tr style="font-size:medium">
+                    <td>Soft sponge topped wtih fresh strawberries and whipped cream.</td>
+                    <td>"Inspired" because I didn't have rosewater and used buko pandan flavoring instead, hence the green color.</td>
+                    <td>Desipte the French name, this meringue and cashew cake is a Filipino delicacy.</td>
+                </tr>
+            </table>
+        </div>
+
+       <div id = "end" style="font-family: Georgia, 'Times New Roman', Times, serif;color:cornflowerblue; font-size:large">
+        <p>What should I make next? Give me a recipe link: <input url = "text"></p>
+        
+        <p>Cafe vlog video that I like to watch :D</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qpChrQqxxnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
+        <label for="goodies">What is your favorite dessert?:</label>
+        <select name="goodies" id="goodies">
+          <option value="cookies">cookies</option>
+          <option value="cake">cake</option>
+          <option value="ice cream">ice cream</option>
+          <option value="brownies">brownies</option>
+          <option value="other">other</option>
+        </select>
