@@ -1,0 +1,122 @@
+*{/*global, applies to whole page*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 194, 222);
+    
+}
+
+ul{/*1/3 new CSS element, a navigation bar*/
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(154, 76, 118);
+    text-align:center;
+    height:25px
+ 
+    
+}
+
+li{/*formats navigation bar entries to be in line*/
+    display:inline-block;
+}
+
+li a{/*formats navigation bar links*/
+    color:white;
+    text-align: center;
+    font-size:medium;
+    display: inline;
+    padding-left:100px;
+    padding-right:100px;
+    background-color: rgb(154, 76, 118);
+
+
+}
+
+#welcome-heading{/*local ID, I will only have one heading*/
+    color:rgb(173, 54, 54);
+    font-size: large;
+    text-align:center
+}
+
+table{
+    padding-top:5px
+    width=1000px;
+    margin:auto
+}
+img{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:20px;
+    margin-left:20px;
+    border:3px double rgb(173, 54, 54);
+    filter:contrast(1.1)brightness(1.1)/*2/3 new CSS element, add a filter to images to touch them up*/
+}
+
+
+td{
+    text-align:center;
+    inline-size:150px;
+    overflow-wrap:break-word;
+    color:rgb(194, 45, 114);
+    font: size 18px;
+    padding: 5px
+}
+
+a{
+    display:block;
+    font-weight:bold;
+    font-size: 25px;
+    color:rgb(152, 40, 81);
+}
+
+a:hover{
+    color:hotpink;
+}
+
+a:visited{
+    color:darkmagenta;
+}
+
+.p{/*p element, local class to reuse whenever I want to enter a "paragraph"*/
+    font-size:medium;
+    color:rgb(194, 45, 114);
+    padding-top:20px;
+
+}
+
+
+.videos{/*local class, will contain the video articles*/
+    display:block;
+    text-align: center;
+
+}
+.video{/*local class, will use as article element under videos*/
+    border:2px dotted rgb(194, 45, 114);
+    padding:10px;
+}
+
+span{
+    background-color:rgba(183, 72, 124, 0.853);
+    color:white;
+    border: 3px solid purple
+    
+}
+.dropdown{/*3/3 new CSS element, dropdowns which are local classes*/
+    position: relative;
+    display:block;
+   
+  }
+  .dropdown:hover .dropdown-content{ /*controls text display*/
+    display: block;
+    
+  }
+  .dropdown-content {/*local class controls text appearance in dropdown*/
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
